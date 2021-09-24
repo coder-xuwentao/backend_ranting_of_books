@@ -13,6 +13,9 @@ mysql数据库文件在/mysql_database中,配置数据库在/config/database.js
 
 strapi、mysql
 
+### 前端
+https://github.com/shakexu1/frontend_ranting_of_books/
+
 ### 业务：
 
 #### 书籍列表：
