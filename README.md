@@ -9,6 +9,10 @@ npm run develop
 
 mysql数据库文件在/mysql_database中,配置数据库在/config/database.js
 
+### 目的
+
+demo for strapi
+
 ### 技术栈：
 
 strapi、mysql
