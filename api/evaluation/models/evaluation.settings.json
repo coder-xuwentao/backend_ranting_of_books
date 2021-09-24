@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "evaluations",
+  "info": {
+    "name": "evaluation",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rate": {
+      "type": "integer"
+    },
+    "state": {
+      "type": "integer"
+    },
+    "book": {
+      "via": "evaluations",
+      "model": "book"
+    },
+    "user": {
+      "via": "evaluations",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
